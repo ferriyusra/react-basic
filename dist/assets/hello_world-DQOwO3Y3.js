@@ -1,0 +1,1 @@
+import{j as e,c as r,r as t}from"./client-C2J03ynu.js";function o(){return e.jsxs("div",{children:[e.jsx("h1",{children:"Hello World"}),e.jsx("p",{children:"Hello React"})]})}r.createRoot(document.getElementById("root")).render(e.jsx(t.StrictMode,{children:e.jsx(o,{})}));
