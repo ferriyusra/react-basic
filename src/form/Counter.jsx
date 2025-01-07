@@ -8,10 +8,13 @@ import { useState } from 'react';
 
 export default function Counter() {
 	let [counter, setCounter] = useState(0);
-	console.info('render');
+	console.info('render ', counter);
 
 	function handleClick() {
-		setCounter(counter + 1);
+		// setCounter(counter + 3);
+		setCounter((c) => c + 1); // mengubah berkali-kali terhadap state with clousure
+		setCounter((c) => c + 1);
+		setCounter((c) => c + 1);
 		console.log(counter);
 	}
 
