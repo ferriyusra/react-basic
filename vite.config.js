@@ -8,7 +8,16 @@ export default defineConfig({
     rollupOptions: {
       input: {
         input: "index.html",
-        hello_world: "hello-world.html"
+        hello_world: "hello-world.html",
+        contact: "contact.html",
+        task: "task.html",
+        counter: "counter.html",
+        note: "note.html",
+        profile: "profile.html",
+        timer: "timer.html",
+        guest_book: "guest-book.html",
+        product: "product.html",
+        online: "online.html"
       }
     }
   }
